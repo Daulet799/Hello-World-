@@ -5,7 +5,7 @@ print("Ноль в качестве знака операции"
 while True:
     
     s = input("Знак (+,-,*,/,sqrt, !): ")
-    if s == '0':
+    if s == '0' or '1'
         break
     if s in ('+', '-', '*', '/', 'sqrt', '!'):
         x = float(input("x="))
